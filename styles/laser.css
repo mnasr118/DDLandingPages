@@ -1,0 +1,102 @@
+body,
+html {
+  overflow-x: hidden;
+  font-family: "Raleway", sans-serif;
+  height: 100%;
+}
+
+body {
+  background-color: #f6f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.banner {
+  min-height: 15rem;
+  background-color: #19a7ce;
+  width: 100%;
+}
+
+.banner .logo {
+  border-radius: 360px;
+  height: 100%;
+}
+
+.banner h1 {
+  font-weight: 800;
+  font-size: 3.5rem;
+}
+
+.banner-container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.code {
+  background-color: white;
+  text-align: center;
+  padding: 1.5em;
+  border: 4px solid black;
+}
+
+.code h1 {
+  font-weight: 800;
+}
+
+.content-wrapper {
+  min-height: 80vh;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+.content-wrapper .btnBorder {
+  border: 1px solid black;
+}
+
+.content-wrapper #discountContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.left .content .profile-image {
+  border: 4px solid black;
+  border-radius: 10px;
+  margin-top: 5em;
+  max-height: 20rem;
+  max-width: 20rem;
+  padding: 1rem;
+}
+
+.left .content p {
+  font-size: 1.4rem;
+}
+
+.right .content {
+  margin-top: 5em;
+  text-align: center;
+}
+
+.right .content #buttons {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.footer {
+  width: 100%;
+  min-height: 5rem;
+  background-color: #19a7ce;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+/*# sourceMappingURL=laser.css.map */

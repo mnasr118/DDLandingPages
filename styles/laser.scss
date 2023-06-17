@@ -1,0 +1,89 @@
+$background-primary: #f6f1f1;
+$main-accent: #19a7ce;
+$secondary-accent: #146c94;
+
+body,
+html {
+	overflow-x: hidden;
+	font-family: "Raleway", sans-serif;
+	height: 100%;
+}
+
+body {
+	background-color: $background-primary;
+	display: flex;
+	flex-direction: column;
+}
+.banner {
+	min-height: 15rem;
+	.logo {
+		border-radius: 360px;
+		height: 100%;
+	}
+	background-color: $main-accent;
+	width: 100%;
+	h1 {
+		font-weight: 800;
+		font-size: 3.5rem;
+	}
+}
+
+.banner-container {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.code {
+	background-color: white;
+	text-align: center;
+	padding: 1.5em;
+	border: 4px solid black;
+	h1 {
+		font-weight: 800;
+	}
+}
+.content-wrapper {
+	min-height: 80vh;
+	flex: 1 0 auto;
+	.btnBorder {
+		border: 1px solid black;
+	}
+	#discountContent {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+.left {
+	.content {
+		.profile-image {
+			border: 4px solid black;
+			border-radius: 10px;
+			margin-top: 5em;
+			max-height: 20rem;
+			max-width: 20rem;
+			padding: 1rem;
+		}
+
+		p {
+			font-size: 1.4rem;
+		}
+	}
+}
+.right {
+	.content {
+		margin-top: 5em;
+		text-align: center;
+
+		#buttons {
+			margin-top: 1em;
+			margin-bottom: 1em;
+		}
+	}
+}
+
+.footer {
+	width: 100%;
+	min-height: 5rem;
+	background-color: $main-accent;
+	flex-shrink: 0;
+}
